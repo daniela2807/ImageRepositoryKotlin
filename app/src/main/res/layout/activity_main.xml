@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity">
-
     <Button
         android:id="@+id/btnTake"
         android:layout_width="match_parent"
@@ -24,14 +23,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"></androidx.camera.view.PreviewView>
+        app:layout_constraintTop_toTopOf="parent">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintStart_toStartOf="@+id/viewFinder"
-        app:layout_constraintTop_toTopOf="@+id/viewFinder"
-        tools:srcCompat="@tools:sample/avatars" />
+    </androidx.camera.view.PreviewView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
